@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+        <script src="locales/en.js"></script>
+    </head>
+
+    <body>
+        <div id="multicharacter-logo">	
+            <img src="https://files.catbox.moe/wy1n5m.png" width="300" height="300">
+        </div>
+        <div id="multicharacter-list" style="left: 1vw;">
+            <p id="multicharacter-list-text-left">List of your characters</p>
+
+            <div id="multicharacter-list-screen">
+                <div id="multicharacter-list-screen-set"></div>
+            </div>
+
+            <div id="multicharacter-list-line" style="bottom: 7.7vh; height: 0.15vh;"></div>
+
+            
+        </div>
+
+        <div id="multicharacter-list" style="right: -1.5vw;">
+            <p id="multicharacter-list-text-right"></p>
+
+            <div id="multicharacter-list-screen">
+                <div id="multicharacter-list-screen-set2"></div>
+            </div>
+        </div>
+
+        <!-- <div id="multicharacter-slots">
+            <div id="multicharacter-slots-set"></div>
+        </div> -->
+        
+        <div id="multicharacter-delete-button">
+            <div class="button-delete" id="multicharacter-delbutton" style="background: #301e1e; margin-right: 0.5vw;">
+                <p id="multicharacter-button-text" style="color: #ffffff;font-size:1.6vh;top:-0.7vh;"><i class="fa-solid fa-trash-can"></i></p>
+            </div>
+            <div class="create-char" id="multicharacter-delbutton" style="background: #101e29; margin-right: 0.5vw;">
+                <p id="multicharacter-button-text" style="color: #ffffff;font-size:1.6vh;top:-0.7vh;"><i class="fa-solid fa-user-plus"></i></p>
+            </div>
+        </div>
+        <div id="multicharacter-buttons">
+            <div class="button-play" id="multicharacter-button" style="background: #eee01a; margin-right: 0.5vw;"><p id="multicharacter-button-text" style="color: #000000;">SELECT A SPAWN</p></div>
+        </div>
+
+        <div id="multicharacter-shadow">
+            <div id="multicharacter-shadow-box">
+                <p id="multicharacter-shadow-box-text">Are you sure want to delete your character?<br><br>To delete your character, please type the name <strong style="color: #ffffff;"><span class="set-names"></span></strong> in the box below and hit Submit. Please remember that this action is irreversible!</p>
+                
+                <input type="text" id="multicharacter-shadow-box-input"/>
+                <div id="multicharacter-shadow-box-button" class="delete-cancel" style="right: 5.5vw;"><p id="multicharacter-shadow-box-button-text">Cancel</p></div>
+                <div id="multicharacter-shadow-box-button" class="set-red" style="background: #cabf1e;"><p id="multicharacter-shadow-box-button-text" class="set-red-text" style="color: #eaa1b1;">Confirm</p></div>
+            </div>
+        </div>
+
+        <div id="multicharacter-spawnselector">
+            <div id="multicharacter-spawnselector-box">
+                <p id="multicharacter-spawnselector-box-text">SELECT A SPAWNPOINT</p>
+                <div id="multicharacter-spawnselect">
+                    <div id="multicharacter-spawnselect-set"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="js/app.js" async></script>
+</html>
