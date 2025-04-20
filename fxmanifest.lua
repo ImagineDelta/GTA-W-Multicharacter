@@ -7,7 +7,7 @@ lua54 'yes'
 dependencies {
 	'es_extended',
 	'esx_menu_default',
-	'delta_identity'
+	'esx_identity'
 }
 
 shared_scripts {
